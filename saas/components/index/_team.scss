@@ -23,6 +23,7 @@
 }
 .team__img {
   margin-bottom: 30px;
+  max-width: 100%;
 }
 .team__name {
   font-weight: 500;
@@ -98,7 +99,4 @@
   .team__item:nth-last-child(-n + 4) {
     margin-bottom: 0;
   }
-}
-.team__img {
-  max-width: 100%;
 }
