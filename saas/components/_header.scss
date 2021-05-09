@@ -1,9 +1,10 @@
 .page-header {
   border-bottom: 1px solid #ececec;
 }
-.site-nav {
-  display: flex;
-  margin-left: 93px;
+
+.page-header__logo {
+  margin-top: 24px;
+  margin-bottom: 25px;
 }
 
 .logo {
@@ -23,7 +24,7 @@
   color: black;
 }
 .nav-menu {
-  margin-left: 93px;
+  margin-left: auto;
   margin-right: auto;
   margin-top: 32px;
 }
@@ -142,8 +143,4 @@
     margin-bottom: 10px;
     margin-left: 30px;
   }
-}
-.page-header__logo {
-  margin-top: 24px;
-  margin-bottom: 25px;
 }
