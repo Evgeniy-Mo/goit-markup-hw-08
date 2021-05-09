@@ -5,6 +5,10 @@
   top: 20px;
   right: 20px;
   z-index: 105;
+
+  &.is-open {
+    position: fixed;
+  }
 }
 .mobile-menu-btn .icon-close:hover,
 .mobile-menu-btn .icon-close:focus {

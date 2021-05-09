@@ -268,6 +268,10 @@ h3 {
   z-index: 105;
 }
 
+.mobile-menu-btn.is-open {
+  position: fixed;
+}
+
 .mobile-menu-btn .icon-close:hover,
 .mobile-menu-btn .icon-close:focus {
   fill: var(--accent-color);
