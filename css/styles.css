@@ -187,15 +187,14 @@ h3 {
   margin-left: 0;
 }
 
-.address__item {
-  color: var(--secondary-text);
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
-
 .address__item:not(:last-child) {
   margin-right: 50px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .address__item:not(:last-child) {
+    margin-right: 0;
+  }
 }
 
 .address__item:first-child {
@@ -206,6 +205,7 @@ h3 {
   display: flex;
   align-items: center;
   font-weight: 500;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
@@ -214,6 +214,13 @@ h3 {
 
 .address__link :focus, .address__link:hover {
   color: var(--accent-color);
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .address__link {
+    font-size: 12px;
+    line-height: 14px;
+  }
 }
 
 .address__icon {
